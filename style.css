@@ -70,7 +70,7 @@ a {
   -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
+  border-bottom: none;
   color: #00695C;
   text-decoration: none;
 }
@@ -2402,6 +2402,42 @@ body.landing #header {
   position: absolute;
 }
 
+
+/* icons */
+.ti-twitter-alt{
+  color: #00ACEE;
+  font-size: 1.5em;
+  border: 0;
+  text-align: center;
+}
+
+.ti-twitter-alt:hover{
+  color: #00ACEE !important;
+}
+
+.ti-facebook{
+  color: #4267B3;
+  font-size: 1.5em;
+  border: 0;
+  text-align: center;
+}
+
+.ti-facebook:hover{
+  color: #4267B3!important;
+}
+
+.ti-instagram{
+  color: white;
+  font-size: 1.5em;
+  border: 0;
+  text-align: center;
+}
+
+.ti-instagram:hover{
+  color: white!important;
+}
+
+
 /* Banner */
 
 #banner {
@@ -2485,6 +2521,41 @@ body.landing #header {
 
 body.is-touch #banner {
   background-attachment: scroll;
+}
+
+
+/* footer */
+
+#contato ul li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  color: #00695C;
+  text-align: left;
+}
+
+#contato li a {
+  border: 0;
+  color: white;
+  text-align: left;
+
+}
+
+ #contato  h5 {
+  color: white !important;
+  text-align: left;
+  
+}
+
+#contato p{
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+#contato h5{
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 /*--------------------------------------------------------------
