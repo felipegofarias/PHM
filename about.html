@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>PHM informatização</title>
+
+    <!-- Favicons -->
+  <link href="img/logo2.jpeg" rel="icon">
 
         <!--Declaração do bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -12,7 +15,7 @@
 
         <link href="animate.css/animate.min.css" rel="stylesheet">
         
-
+        <link rel="stylesheet" href="themify/css/themify-icons.css">
         
 
         <!--OwlCarousel-->
@@ -21,27 +24,22 @@
 
 </head>
 <body >
-    
+    <!-- navbar -->
   <div id="page-wrapper">
     <header id="header">
       <h1 id="logo"><a href="index.html"><img src="img/logo2.jpeg"></a></h1>
       <nav id="nav">
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li>
-            <a href="about.html">Sobre</a>
-            <ul>
-              <li><a href="left-sidebar.html">Left Sidebar</a></li>
-              <li><a href="right-sidebar.html">Right Sidebar</a></li>
-              <li><a href="no-sidebar.html">No Sidebar</a></li>
-            </ul>
-          </li>
+          <li><a href="about.html">Sobre</a></li>
           <li><a href="projetos.html">Projetos</a></li>
           <li><a href="contato.html">Contatos</a></li>
         </ul>
       </nav>
     </header>
-  
+    <!-- fim navbar -->
+
+
       <!--breadcrumbs//Navegação estrutural-->
       <main id="main">
           <section id="breadcrumbs" class="breadcrumbs">
@@ -54,13 +52,13 @@
               </div>
           </section><!--fim breadcrumbs-->
 
+          <!-- Titulo sobre  -->
           <header class="major">
             <h2>Um pouco sobre nós</h2>
             <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
           </header>
+          <!-- fim titulo -->
 
-
-          
 
           <!--texto/img sobre nós-->
           <section id="sobre" class="about-shot-info section-sm">
@@ -80,7 +78,7 @@
           </section><!--fim texto/img-->
       </main>
   
-      <!-- ======= Contador Section// necessita do cdn UIkit CSS======= -->
+      <!-- ======= Contador Section// ======= -->
       <section id="counts" class="counts">
           <div class="container">
     
@@ -192,51 +190,57 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
-
+    <!-- Owl Carousel  -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   
+   <!-- purecouter para o testimonial -->
    <script src="purecounter/purecounter.js"></script>
 
    
-   <!--contatos-->
-   <footer id="contato" class="text-light text-center bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6">
-          <h5 id="menu">MENU</h5>
-          <ul>
-            <li><i class="ti-angle-right"></i>
-              <a class="active" href="index.html">Inicio</a>
-            </li>
-            <li><i class="ti-angle-right"></i>
-              <a class="active" href="about.html">Sobre</a>
-            </li>
-            <li><i class="ti-angle-right"></i>
-              <a class="active" href="projetos.html">Projetos</a>
-            </li>
-            <li><i class="ti-angle-right"></i>
-              <a class="active" href="contato.html">Contatos</a>
-            </li>
-          </ul>
-        </div>
+   <!--inicio footer-->
+   <footer id="footer" class="text-light text-center bg-dark">
+    <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <!-- menu -->
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4 id="title">Menu</h4>
+              <ul>
+                <li><i class="ti-angle-right"></i><a class="active" href="index.html">Inicio</a></li>
+                <li><i class="ti-angle-right"></i><a href="about.html">Sobre nós</a></li>
+                <li><i class="ti-angle-right"></i><a href="projetos.html">Projetos</a></li>
+                <li><i class="ti-angle-right"></i><a href="contact.html">Contato</a></li>
+              </ul>
+            </div>
+  
+            
+            <!-- contatos  -->
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <h4>Entre em contato</h4>
+              <p>
+                Rua xxxxxx xxxxxx, xx <br>
+                São Paulo - SP <br><br>
+                <strong>Telefone:</strong> 99 99999-9999<br>
+                <strong>Email:</strong> exemplo@examplo.com<br>
+              </p>
+  
+            </div>
+            
+            <!-- sobre  -->
+            <div class="col-lg-4 col-md-6 footer-info">
+              <h3>Sobre PHM</h3>
+              <p>Vestibulum nisl tortor, consectetur quis imperdiet bibendum, laoreet sed arcu.Sed condimentum iaculis ex,
+                in faucibus lorem accumsan non. Donec mattis tincidunt metus. Morbi sed tortor a risus luctus dignissim.</p>
+              <div class="social-links mt-3">
+                <a href="https://facebook.com" class="ti-facebook"></a>
+                <a href="https://instagram.com" class="ti-instagram"></a>
+              </div>
+            </div>
 
-        <div class="col-lg-6 col-md-6">
-          <h5>ENTRE EM CONTATO</h5>
-          
-          <p>Telefone: (99)9999-9999</p>
-          <p>Telefone: (99)9999-9999</p>
-          <p>Email: exemplo@exmplo.com</p>
+          </div>
         </div>
       </div>
-    
-          
-          
-          <a href="https://twitter.com" class="ti-twitter-alt"></a>
-          <a href="https://facebook.com" class="ti-facebook"></a>
-          <a href="https://whatsapp.com" class="ti-phone" ></a>
-          <a href="https://instagram.com" class="ti-instagram"></a>
-          
-    </footer>
-
+            
+    </footer>  
+              <!-- Fim footer -->
 </body>
 </html>
